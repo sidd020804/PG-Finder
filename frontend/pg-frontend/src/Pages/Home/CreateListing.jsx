@@ -141,9 +141,9 @@ const CreateListing = () => {
                 <h1>Please Describe Your PG:</h1>
                 <form onSubmit={handlePost}>
                     <div className="create-listing_step1">
-                        <h2>Setp 1: Apne Jagah ke bare me batao</h2>
+                        <h2>Step 1: Describe about your place.</h2>
                         <hr />
-                        <h3>Which of these category best describe your place</h3>
+                        <h3>Select the Category That Best Describes Your Place:</h3>
                         <div className="category-list">
                             {
                                 categories?.map((items, index) => (
@@ -158,7 +158,7 @@ const CreateListing = () => {
                                 ))
                             }
                         </div>
-                        <h3>Apko kis type ka place Chiye?</h3>
+                        <h3>Which type of place do you need?</h3>
                         <div className="type-list">
                             {
                                 types?.map((items, index) => (
@@ -175,7 +175,7 @@ const CreateListing = () => {
                                 ))
                             }
                         </div>
-                        <h3>Where's your place located?</h3>
+                        <h3>Where is your place located?</h3>
                         <div className="full">
                             <div className="location">
                                 <p>Street Address</p>
@@ -191,7 +191,7 @@ const CreateListing = () => {
                         </div>
                         <div className="half">
                             <div className="location">
-                                <p>Apartment, Suite, etc. if applicable</p>
+                                <p>Appartment, Suite, etc. if applicable</p>
                                 <input
                                     type="text"
                                     placeholder="Apt, Suite, etc. (if applicable)"
@@ -215,10 +215,10 @@ const CreateListing = () => {
                         </div>
                         <div className="half">
                             <div className="location">
-                                <p>Province</p>
+                                <p>State</p>
                                 <input
                                     type="text"
-                                    placeholder="Province"
+                                    placeholder="State"
                                     name="province"
                                     value={formLocation.province}
                                     onChange={handleChangeLocation}
@@ -237,7 +237,7 @@ const CreateListing = () => {
                                 />
                             </div>
                         </div>
-                        <h3>Apne jagah ke bare me kuch bataiye</h3>
+                        <h3>Tell me something about your place.</h3>
                         <div className="basics">
                             <div className="basic">
                                 <p>Guests</p>
@@ -301,9 +301,9 @@ const CreateListing = () => {
                         </div>
                     </div>
                     <div className="create-listing_step2">
-                        <h2>Step 2: Tumhare gahr kis jagah stand out karta hai</h2>
+                        <h2>Step 2: Highlight What Makes Your Place Special.</h2>
                         <hr />
-                        <h3>Kuch batao apke room ke pass kya kya services hai</h3>
+                        <h3>Which type of services are available in your PG?</h3>
                         <div className="amenities">
                             {
                                 facilities?.map((faci, index) => (
@@ -316,7 +316,7 @@ const CreateListing = () => {
                                 ))
                             }
                         </div>
-                        <h3>Kuch chitra dijiye apme ghar ko darshane ke liye</h3>
+                        <h3>Please provide some pictures to showcase your PG.</h3>
                         {/* {{{{ {...provided.droppableProps}: This JSX spread attribute ({...}) spreads all the props provided by the Droppable component onto this div. These props include event handlers necessary for drag-and-drop functionality.
 ref={provided.innerRef}: This assigns the ref attribute of the div to provided.innerRef, which is a reference to the root DOM node of the droppable area. This is important for managing drag-and-drop behavior.}}}} */}
                         {/* <DragDropContext onDragEnd={handleDragPhoto}>
@@ -468,7 +468,7 @@ ref={provided.innerRef}: This assigns the ref attribute of the div to provided.i
                                 )}
                             </Droppable>
                         </DragDropContext>
-                        <h3>What make your place attractive and exciting?</h3>
+                        <h3>What Makes Your Place Unique & Unmissable?</h3>
                         <div className="description">
                             <p>Title</p>
                             <input

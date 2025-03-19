@@ -51,7 +51,7 @@ const Navbar = () => {
             {user ? (
               <>
                 <Link style={styles.dropdownItem} to={`/${user._id}/trips`}>
-                  Trip List
+                  My Bookings
                 </Link>
                 <Link style={styles.dropdownItem} to={`/${user._id}/wishList`}>
                   Wish List

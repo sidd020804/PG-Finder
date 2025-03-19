@@ -7,11 +7,11 @@ import React from "react";
 const Categories = () => {
     return (
         <div className="categories">
-            <h1>Explore Top Categories</h1>
+            <h1>Find the Perfect PG That Feels Like Home!</h1>
             <p>
-                Explore our wide range of vacation rentals that cater to all types of
-                travelers. Immerse yourself in the local culture, enjoy the comforts of
-                home, and create unforgettable memories in your dream destination.
+            Explore our wide range of PG accommodations designed for every lifestyle. 
+            Enjoy comfort, convenience, and a hassle-free stay while experiencing the best of your new city. 
+            Your ideal home away from home is just a click away!
             </p>
 
             <div className="categories_list">

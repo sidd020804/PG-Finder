@@ -5,8 +5,7 @@ const Slider = () => {
   return (
     <div className="slide">
       <h1>
-        Welcome Home! Anywhere you roam <br /> Stay in the moment. Make your
-        memories
+       Stay in the moment, live the experience, and <br/>create memories that last a lifetime!
       </h1>
     </div>
   );
