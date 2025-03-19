@@ -25,9 +25,11 @@ app.use('/api/v1/bookings',BookingRoute);
 app.use('/api/v1/users',UserRoute)
 
 const port = 3000 || process.env.PORT;
+console.log(port)
 
 const start = async () => {
     try {
+        console.log(process.env.MONGO_URI)
         await connectDB(process.env.MONGO_URI);
         app.listen(port, console.log(`Sever Running at http://localhost:${port}`));
     } catch (error) {

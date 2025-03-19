@@ -138,8 +138,7 @@ const CreateListing = () => {
         <>
             <Navbar />
             <div className="create-listing">
-                <h1>Apne Jagah Ko Prakaashit
-                    Kejiye</h1>
+                <h1>Please Describe Your PG:</h1>
                 <form onSubmit={handlePost}>
                     <div className="create-listing_step1">
                         <h2>Setp 1: Apne Jagah ke bare me batao</h2>
