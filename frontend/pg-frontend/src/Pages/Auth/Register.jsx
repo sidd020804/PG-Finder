@@ -136,9 +136,14 @@ const Register = () => {
             <section className="register-section">
                 <Toaster position='top-center' reverseOrder={false} />
                 <div className="heading">
-                    <h1>Register Here</h1>
-                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique  <br /> facilis rem culpa fugiat eveniet quidem modi vero dicta in quo? <br />
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eos?</h3>
+                <h1>Register Here</h1>
+                    <h3>Find your perfect PG accommodation with ease! <br /> 
+                    Register now to explore a wide range of verified <br></br> 
+                    paying guest options  that match your preferences <br></br> 
+                    and budget. With our seamless platform,  you can <br></br>
+                    browse listings, compare amenities, and connect <br></br>
+                    with property owners—all in one place. Sign up today <br /> 
+                    and take the first step toward hassle-free living! </h3>
                 </div>
                 <div className="register-container">
                     <form className="register-info" onSubmit={handleSubmit}>
