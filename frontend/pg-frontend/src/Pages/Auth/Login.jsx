@@ -49,7 +49,7 @@ const Login = () => {
       <section className="register-section-2">
         <Toaster position='top-center' reverseOrder={false} />
         <div className="heading">
-          <h1>PG Finder Login</h1>
+          <h1>Login Here </h1>
           <h3>Finding the perfect PG has never been easier. With our smart and seamless platform,<br/> you can explore a wide range of PG accommodations that suit your lifestyle and budget. <br/> Compare amenities, check availability, and make informed decisions—all in one place. <br/>
           Log in now to discover the best PG options near you and secure your ideal stay with ease.<br/> Your next home is just a few clicks away!<br/> </h3>
         </div>
