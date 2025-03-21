@@ -12,7 +12,10 @@ import ReservationList from './Pages/Home/ReservationList';
 import Footer from './Components/Footer';
 import CategoryPage from './Pages/Home/CategoryPage';
 import SearchingPage from './Pages/Home/SearchingPage';
-import AboutUs from './Pages/Home/Aboutus';
+import TermsAndConditions from './Pages/Home/TermsAndConditions';
+import AboutUs from './Pages/Home/aboutus';
+import Payment from './Pages/Home/Payment';
+import RefundPolicy from './Pages/Home/Refundpolicy';
 
 const App = () => {
   return (
@@ -23,6 +26,9 @@ const App = () => {
           <Route path='/register' element={<Register />} />
           <Route path='/login' element={<Login />} />
           <Route path='/AboutUs' element={<AboutUs />} />
+          <Route path='/TermsAndConditions' element={<TermsAndConditions />} />
+          <Route path='/Payment' element={<Payment />} />
+          <Route path='/RefundPolicy' element={<RefundPolicy />} />
           <Route path='/create-listing' element={<CreateListing />} />
           <Route path='/properties/:listingId' element={<ListingDetails />} />
           <Route path="/properties/category/:category" element={<CategoryPage />} />

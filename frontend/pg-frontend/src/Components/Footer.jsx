@@ -21,7 +21,7 @@ const Footer = () => {
                 </ul>
             </div>
 
-            <div className="footer_right">
+            <div className="footer_right"   style={{ color: "white" }}>
                 <h3>Contact</h3>
                 <div className="footer_right_info">
                     <MdLocalPhone />

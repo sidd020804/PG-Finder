@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.payment-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f7f9f9, #e3f1f1);
+    font-family: 'Poppins', sans-serif;
+    padding: 40px 0;
+}
+
+.headingp {
+    color: #6a9ea0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.payment-box {
+    background: #ffffff;
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #4a7d7d;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.payment-summary {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e6f2f2;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.amount-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    text-align: center;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.amount-input:focus {
+    border-color: #6a9ea0;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    outline: none;
+    background: white;
+    cursor: pointer;
+}
+
+.pay-button {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+.pay-button:hover {
+    background: #0056b3;
+}
+
+.pay-button:disabled {
+    background: #b0c4de;
+    cursor: not-allowed;
+}
+
+.support-text {
+    font-size: 14px;
+    color: #555;
+    margin-top: 15px;
+}
+
+.support-text a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.support-text a:hover {
+    text-decoration: underline;
+}
