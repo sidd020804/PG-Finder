@@ -44,7 +44,7 @@ const AboutUs = () => {
 
         <h2>Contact Us</h2>
         <p>Email: support@pgfinder.com</p>
-        <p>Phone: +91 98765 43210</p>
+        <p>Phone: +1 234 567 890</p>
       </div>
     </>
   );
