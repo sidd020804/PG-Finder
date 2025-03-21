@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <div className="footer" style={{background:"#333333",padding:"100px 80px"}}>
             <div style={styles.logoContainer} className="footer_left">
-                <Link to='/' style={styles.link}> <FaHome style={styles.logo} /> <span style={styles.logoText}>PG</span><span style={styles.logoText2}>Finder</span></Link>
+                <Link to='/' style={styles.link}> <FaHome style={styles.logo} /> <span style={styles.logoText}>Aeronest 360</span><span style={styles.logoText2}>- A PG Finder</span></Link>
             </div>
 
             <div className="footer_center" >
