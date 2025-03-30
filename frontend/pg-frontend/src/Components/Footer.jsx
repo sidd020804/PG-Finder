@@ -14,10 +14,10 @@ const Footer = () => {
 
             <div className="footer_center" >
                 <h3>Useful Links</h3>
-                <ul style={{color:"#c7c7c7"}}>
-                    <li>About Us</li>
-                    <li>Terms and Conditions</li>
-                    <li>Return and Refund Policy</li>
+                <ul style={{ color: "#c7c7c7" }}>
+                    <li><a href="/aboutus">About Us</a></li>
+                    <li><a href="/TermsAndConditions">Terms and Conditions</a></li>
+                    <li><a href="/Refundpolicy">Return and Refund Policy</a></li>
                 </ul>
             </div>
 
