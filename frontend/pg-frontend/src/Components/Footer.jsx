@@ -33,7 +33,9 @@ const Footer = () => {
                 </div>
                 <div className="footer_right_info">
                 <MdPayment/>
+                <a href="/payment">
                 <p>Payment</p>
+                </a>
                 </div>
             </div>
         </div>
