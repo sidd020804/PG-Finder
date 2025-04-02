@@ -29,7 +29,7 @@ const Footer = () => {
                 </div>
                 <div className="footer_right_info">
                     <MdEmail />
-                    <p>PGFinder@support.com</p>
+                    <p>support@aeronest360.com</p>
                 </div>
                 <div className="footer_right_info">
                 <MdPayment/>
